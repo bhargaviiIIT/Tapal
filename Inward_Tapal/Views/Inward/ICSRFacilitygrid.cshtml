@@ -1,0 +1,42 @@
+﻿@model List<Inward_Tapal.Models.sample_User>
+
+<h2>ICSR Facility Pending</h2>
+@using (Html.BeginForm("", "", FormMethod.Get, new { id = "form2" }))
+{
+    <table border="1">
+        <tr>
+            <th>
+                Date:
+            </th>
+            <th>SlNo:</th>
+            <th>From:</th>
+            <th>Department:</th>
+            <th>Subject:</th>
+            <th>Section:</th>
+            <th>TPLNO:</th>
+            <th>Cheque:</th>
+            <th>User:</th>
+            <th>WFCPNO:</th>
+        </tr>
+        @foreach (Inward_Tapal.Models.sample_User a in Model)
+        {
+            <tr>
+                <td>@a.Date_in</td>
+                <td>@a.T_Sno</td>
+                <td>@a.T_From</td>
+                <td>@a.T_Dept</td>
+                <td>@a.T_Subject</td>
+                <td>@a.T_Section</td>
+                <td>@a.TPLNO</td>
+                <td>@a.T_Cheque</td>
+                <td>@a.T_User</td>
+                <td>@a.wfcpno</td>
+            </tr>
+
+        }
+    </table>
+    <script type="text/javascript">
+
+    </script>
+}
+

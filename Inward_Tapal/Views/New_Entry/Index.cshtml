@@ -1,0 +1,125 @@
+﻿@model Inward_Tapal.Models.sample_User
+
+@{
+    ViewBag.Title = "Index";
+    var primaryKey = TempData["lastPrimaryKey"] != null && !string.IsNullOrEmpty(TempData["lastPrimaryKey"].ToString()) ? TempData["lastPrimaryKey"].ToString() : string.Empty;
+}
+<br /><br /><br />
+<h2>Index</h2>
+
+@using (Html.BeginForm("updatedetails", "New_Entry", FormMethod.Post, new { id = "formid" }))
+{
+    <br />
+    <br />
+    <br />
+    <table>
+        <tr>
+            <td>Slno:</td>
+            <td>@Html.TextBox("T_sno", (string)ViewBag.count1)</td>
+        </tr>
+        <tr>
+            <td>From:</td>
+            <td>@Html.TextBoxFor(m => m.T_From)</td>
+        </tr>
+        <tr>
+            <td>Department:</td>
+            <td>
+                <div id="ddl1">
+
+                    <select id="drop1" name="drop1" onchange="dropdownchanged()">
+                        <option value="">Select</option>
+                        <option value="D">Departments</option>
+                        <option value="C">Central Facilities</option>
+                        <option value="A">Administration</option>
+                        <option value="G">Guest House</option>
+                    </select>
+                </div>
+            </td>
+            <td>  
+                <div id="dropDownDepartment">
+                    @Html.DropDownList("department", "select")
+                </div>
+                </td>
+        </tr>
+        <tr>
+            <td>subject:</td>
+            <td>@Html.TextBoxFor(m => m.T_Subject)</td>
+        </tr>
+        <tr>
+            <td>Section:</td>
+            <td>
+            @Html.DropDownList("Sections", new List<SelectListItem>
+       {
+           new SelectListItem {Text="Dean's Office",Value="1"},
+           new SelectListItem {Text="Office",Value="2"},
+           new SelectListItem {Text="Accounts",Value="3"},
+           new SelectListItem {Text="Recruitment",Value="4"},
+           new SelectListItem {Text="Purchase",Value="5"},
+           new SelectListItem {Text="ICSR Facilities",Value="6"},
+           new SelectListItem {Text="IPR Cell",Value="7"}
+       }, "Select Section", "Text")
+
+            
+            </td>
+        </tr>
+        <tr>
+            <td>TPLNO:</td>
+            <td>@Html.TextBoxFor(m => m.TPLNO)</td>
+            </tr>
+        <tr>
+            <td>Cheque:</td>
+            <td><input type="checkbox" onchange="LoadPartialView('chk')" id="Check1" /></td>
+        </tr>
+        <tr>
+            <td>WFCPNO:</td>
+            <td>@Html.TextBoxFor(m => m.wfcpno)</td>
+        </tr>
+        <tr><td><button type="submit" onclick="aler()">Save</button></td></tr>
+       
+    </table>
+   
+
+    <div id="div1" style="display:none">
+        <p>Welcome to Besent</p>
+    </div>
+    <div>
+  @*@Html.Partial("_ShowDetails")*@
+    </div>
+}
+}
+<script type="text/javascript">
+  
+    var count = 1;
+    function LoadPartialView(a) {
+        $("#div1").show();
+
+        $.ajax({
+            url: "/New_Entry/_partial/?id=" + count,
+            success: function (result) {
+                if (a == "chk") {
+                    $("#div1").html(result)
+                }
+                else {
+                    $("#div1").append(result);
+                    var nc = count - 2;
+                    $("#add" + nc).hide();
+                }
+            }, type: "GET"
+        }); count++;
+    }
+    // });
+    function dropdownchanged() {
+        $.ajax({
+            type: "GET",
+            url: "/New_Entry/GetDropDownValue",
+            data: { department: $("#drop1").val() },
+            success: function (data) {
+                var s = $('<select />');
+                for (var val in data) {
+                    $('<option />', { value: data[val].value, text: data[val].Text }).appendTo(s);
+                }
+                $('#dropDownDepartment').html("").html(s);
+            }
+        });
+    }
+</script>

@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Issue";
+}
+
+<h2>Issue</h2>
+<table>
+
+    <tr><td>@Html.ActionLink("Accounts", "accountgrid", "Inward")@ViewBag.count1</td></tr>
+    <tr></tr>
+
+    <tr><td>@Html.ActionLink("Purchase", "Purchasegrid", "Inward")@ViewBag.count2</td></tr>
+    <tr></tr>
+
+    <tr><td>@Html.ActionLink("Recruitment", "Recruitmentgrid", "Inward")@ViewBag.count3 </td></tr>
+
+    <tr><td>@Html.ActionLink("Dean's Office", "Deanofficegrid", "Inward")@ViewBag.count4</td></tr>
+
+    <tr><td>@Html.ActionLink("IPR Cell", "IPRCellgrid", "Inward")@ViewBag.count5</td></tr>
+
+    <tr><td>@Html.ActionLink("ICSR Facility", "ICSRFacilitygrid", "Inward")@ViewBag.count6</td></tr>
+
+    <tr><td>@Html.ActionLink("Office", "Officegrid", "Inward")@ViewBag.count7</td></tr>
+</table>

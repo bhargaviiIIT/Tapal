@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TapalsModelStoreContainer" CdmEntityContainer="TapalsEntities">
+    <EntitySetMapping Name="Registrations">
+      <EntityTypeMapping TypeName="TapalsModel.Registration">
+        <MappingFragment StoreEntitySet="Registration">
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="Section" ColumnName="Section" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Emp_ID" ColumnName="Emp_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departments">
+      <EntityTypeMapping TypeName="TapalsModel.Department">
+        <MappingFragment StoreEntitySet="Department">
+          <ScalarProperty Name="DeptOrCentre" ColumnName="DeptOrCentre" />
+          <ScalarProperty Name="Dept_Code" ColumnName="Dept_Code" />
+          <ScalarProperty Name="Dept" ColumnName="Dept" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cheques">
+      <EntityTypeMapping TypeName="TapalsModel.Cheque">
+        <MappingFragment StoreEntitySet="Cheque">
+          <ScalarProperty Name="AMOUNT" ColumnName="AMOUNT" />
+          <ScalarProperty Name="BANK" ColumnName="BANK" />
+          <ScalarProperty Name="CQDATE" ColumnName="CQDATE" />
+          <ScalarProperty Name="TPLNO" ColumnName="TPLNO" />
+          <ScalarProperty Name="CQNO" ColumnName="CQNO" />
+          <ScalarProperty Name="ChequeNo" ColumnName="ChequeNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subjects">
+      <EntityTypeMapping TypeName="TapalsModel.Subject">
+        <MappingFragment StoreEntitySet="Subject">
+          <ScalarProperty Name="Subject_Name" ColumnName="Subject_Name" />
+          <ScalarProperty Name="Subject_Id" ColumnName="Subject_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Inwards">
+      <EntityTypeMapping TypeName="TapalsModel.Inward">
+        <MappingFragment StoreEntitySet="Inward">
+          <ScalarProperty Name="IssueName" ColumnName="IssueName" />
+          <ScalarProperty Name="Issue" ColumnName="Issue" />
+          <ScalarProperty Name="wfcpno" ColumnName="wfcpno" />
+          <ScalarProperty Name="Date_in" ColumnName="Date_in" />
+          <ScalarProperty Name="T_Cheque" ColumnName="T_Cheque" />
+          <ScalarProperty Name="T_Passout" ColumnName="T_Passout" />
+          <ScalarProperty Name="T_User" ColumnName="T_User" />
+          <ScalarProperty Name="T_Section" ColumnName="T_Section" />
+          <ScalarProperty Name="T_Subject_Value" ColumnName="T_Subject_Value" />
+          <ScalarProperty Name="T_Subject" ColumnName="T_Subject" />
+          <ScalarProperty Name="T_Dept" ColumnName="T_Dept" />
+          <ScalarProperty Name="T_From" ColumnName="T_From" />
+          <ScalarProperty Name="T_Sno" ColumnName="T_Sno" />
+          <ScalarProperty Name="TPLNO" ColumnName="TPLNO" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

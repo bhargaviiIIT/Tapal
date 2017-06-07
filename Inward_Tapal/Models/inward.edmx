@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="TapalsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Cheque">
+          <Key>
+            <PropertyRef Name="ChequeNo" />
+          </Key>
+          <Property Name="ChequeNo" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CQNO" Type="bigint" />
+          <Property Name="TPLNO" Type="nvarchar" MaxLength="30" />
+          <Property Name="CQDATE" Type="smalldatetime" />
+          <Property Name="BANK" Type="nvarchar" MaxLength="50" />
+          <Property Name="AMOUNT" Type="nvarchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="Department">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Dept" Type="nvarchar" MaxLength="100" />
+          <Property Name="Dept_Code" Type="nvarchar" MaxLength="3" />
+          <Property Name="DeptOrCentre" Type="nvarchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="Inward">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TPLNO" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="T_Sno" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="T_From" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="T_Dept" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="T_Subject" Type="nvarchar" MaxLength="150" Nullable="false" />
+          <Property Name="T_Subject_Value" Type="nvarchar(max)" />
+          <Property Name="T_Section" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="T_User" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="T_Passout" Type="nvarchar" MaxLength="50" />
+          <Property Name="T_Cheque" Type="nvarchar" MaxLength="1" Nullable="false" />
+          <Property Name="Date_in" Type="smalldatetime" Nullable="false" />
+          <Property Name="wfcpno" Type="nvarchar" MaxLength="20" />
+          <Property Name="Issue" Type="bit" Nullable="false" />
+          <Property Name="IssueName" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Registration">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Emp_ID" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="Username" Type="nvarchar" MaxLength="30" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" />
+          <Property Name="Section" Type="nvarchar" MaxLength="20" />
+          <Property Name="Designation" Type="nvarchar" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="Subject">
+          <Key>
+            <PropertyRef Name="Subject_Id" />
+          </Key>
+          <Property Name="Subject_Id" Type="bigint" Nullable="false" />
+          <Property Name="Subject_Name" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityContainer Name="TapalsModelStoreContainer">
+          <EntitySet Name="Cheque" EntityType="Self.Cheque" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Department" EntityType="Self.Department" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Inward" EntityType="Self.Inward" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Registration" EntityType="Self.Registration" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Subject" EntityType="Self.Subject" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="TapalsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="TapalsEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Registrations" EntityType="TapalsModel.Registration" />
+          <EntitySet Name="Departments" EntityType="TapalsModel.Department" />
+          <EntitySet Name="Cheques" EntityType="TapalsModel.Cheque" />
+          <EntitySet Name="Subjects" EntityType="TapalsModel.Subject" />
+          <EntitySet Name="Inwards" EntityType="TapalsModel.Inward" />
+        </EntityContainer>
+        <EntityType Name="Registration">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Emp_ID" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="Username" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Section" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Designation" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Department">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Dept" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Dept_Code" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+          <Property Name="DeptOrCentre" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Cheque">
+          <Key>
+            <PropertyRef Name="ChequeNo" />
+          </Key>
+          <Property Name="ChequeNo" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CQNO" Type="Int32" />
+          <Property Name="TPLNO" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="CQDATE" Type="DateTime" Precision="0" />
+          <Property Name="BANK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="AMOUNT" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Subject">
+          <Key>
+            <PropertyRef Name="Subject_Id" />
+          </Key>
+          <Property Name="Subject_Id" Type="Int64" Nullable="false" />
+          <Property Name="Subject_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Inward">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TPLNO" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="true" />
+          <Property Name="T_Sno" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="T_From" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="T_Dept" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="T_Subject" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+          <Property Name="T_Subject_Value" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="T_Section" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="T_User" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="T_Passout" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="T_Cheque" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="true" />
+          <Property Name="Date_in" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="wfcpno" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="Issue" Type="Boolean" Nullable="false" />
+          <Property Name="IssueName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="TapalsModelStoreContainer" CdmEntityContainer="TapalsEntities">
+          <EntitySetMapping Name="Registrations">
+            <EntityTypeMapping TypeName="TapalsModel.Registration">
+              <MappingFragment StoreEntitySet="Registration">
+                <ScalarProperty Name="Designation" ColumnName="Designation" />
+                <ScalarProperty Name="Section" ColumnName="Section" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Username" ColumnName="Username" />
+                <ScalarProperty Name="Emp_ID" ColumnName="Emp_ID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Departments">
+            <EntityTypeMapping TypeName="TapalsModel.Department">
+              <MappingFragment StoreEntitySet="Department">
+                <ScalarProperty Name="DeptOrCentre" ColumnName="DeptOrCentre" />
+                <ScalarProperty Name="Dept_Code" ColumnName="Dept_Code" />
+                <ScalarProperty Name="Dept" ColumnName="Dept" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Cheques">
+            <EntityTypeMapping TypeName="TapalsModel.Cheque">
+              <MappingFragment StoreEntitySet="Cheque">
+                <ScalarProperty Name="AMOUNT" ColumnName="AMOUNT" />
+                <ScalarProperty Name="BANK" ColumnName="BANK" />
+                <ScalarProperty Name="CQDATE" ColumnName="CQDATE" />
+                <ScalarProperty Name="TPLNO" ColumnName="TPLNO" />
+                <ScalarProperty Name="CQNO" ColumnName="CQNO" />
+                <ScalarProperty Name="ChequeNo" ColumnName="ChequeNo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Subjects">
+            <EntityTypeMapping TypeName="TapalsModel.Subject">
+              <MappingFragment StoreEntitySet="Subject">
+                <ScalarProperty Name="Subject_Name" ColumnName="Subject_Name" />
+                <ScalarProperty Name="Subject_Id" ColumnName="Subject_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Inwards">
+            <EntityTypeMapping TypeName="TapalsModel.Inward">
+              <MappingFragment StoreEntitySet="Inward">
+                <ScalarProperty Name="IssueName" ColumnName="IssueName" />
+                <ScalarProperty Name="Issue" ColumnName="Issue" />
+                <ScalarProperty Name="wfcpno" ColumnName="wfcpno" />
+                <ScalarProperty Name="Date_in" ColumnName="Date_in" />
+                <ScalarProperty Name="T_Cheque" ColumnName="T_Cheque" />
+                <ScalarProperty Name="T_Passout" ColumnName="T_Passout" />
+                <ScalarProperty Name="T_User" ColumnName="T_User" />
+                <ScalarProperty Name="T_Section" ColumnName="T_Section" />
+                <ScalarProperty Name="T_Subject_Value" ColumnName="T_Subject_Value" />
+                <ScalarProperty Name="T_Subject" ColumnName="T_Subject" />
+                <ScalarProperty Name="T_Dept" ColumnName="T_Dept" />
+                <ScalarProperty Name="T_From" ColumnName="T_From" />
+                <ScalarProperty Name="T_Sno" ColumnName="T_Sno" />
+                <ScalarProperty Name="TPLNO" ColumnName="TPLNO" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

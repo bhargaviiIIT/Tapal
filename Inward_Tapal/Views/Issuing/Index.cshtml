@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Sections:</h2>
+
+<table>
+    <tr height="20" style=""><td>@Html.ActionLink("Accounts", "accountgrid", "Inward")@ViewBag.count1</td></tr>
+    <tr height="20">@Html.ActionLink("Purchase", "Purchasegrid", "Inward")@ViewBag.count2</tr>
+    <tr height="20">@Html.ActionLink("Recruitment", "Recruitmentgrid", "Inward")@ViewBag.count3</tr>
+    <tr height="20">@Html.ActionLink("Dean's Office", "Deanofficegrid", "Inward")@ViewBag.count4</tr>
+    <tr height="20">@Html.ActionLink("IPR Cell", "IPRCellgrid", "Inward")@ViewBag.count5</tr>
+    <tr height="20">@Html.ActionLink("ICSR Facility", "ICSRFacilitygrid", "Inward")@ViewBag.count6</tr>
+    <tr height="20">@Html.ActionLink(" Office", "Officegrid", "Inward")@ViewBag.count7</tr>
+
+</table>
+

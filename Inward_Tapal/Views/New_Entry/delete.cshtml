@@ -1,0 +1,112 @@
+﻿@model Inward_Tapal.Models.Inward
+
+@{
+    ViewBag.Title = "delete";
+}
+
+<h2>delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Inward</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TPLNO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TPLNO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.T_Sno)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.T_Sno)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.T_From)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.T_From)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.T_Dept)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.T_Dept)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.T_Subject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.T_Subject)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.T_Section)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.T_Section)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.T_User)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.T_User)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.T_Passout)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.T_Passout)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.T_Cheque)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.T_Cheque)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date_in)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date_in)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.wfcpno)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.wfcpno)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

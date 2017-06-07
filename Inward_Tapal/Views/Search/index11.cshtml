@@ -1,0 +1,93 @@
+﻿@model IEnumerable<Inward_Tapal.Models.Inward>
+
+@{
+    ViewBag.Title = "index11";
+}
+
+<h2>index11</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Date_in)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.T_Sno)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.T_From)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.T_Dept)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.T_Subject)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.T_Section)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.T_Passout)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TPLNO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.T_Cheque)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.T_User)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.wfcpno)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date_in)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.T_Sno)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.T_From)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.T_Dept)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.T_Subject)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.T_Section)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.T_Passout)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TPLNO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.T_Cheque)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.T_User)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.wfcpno)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "MenuPage";
+}
+
+<h2>MenuPage</h2>
+<table>
+    <tr><td width="200">@Html.ActionLink("Accounts", "accountgrid", "Inward", new { @class = "btn btn-primary" })</td></tr>
+    <tr><td width="200">@Html.ActionLink("Purchase", "Purchasegrid", "Inward", new { @class = "btn btn-primary" })</td></tr>
+    <tr><td width="200">@Html.ActionLink("Recruitment", "Recruitmentgrid", "Inward", new { @class = "btn btn-primary" })</td></tr>
+    <tr><td width="200">@Html.ActionLink("Dean's Office", "Deanofficegrid", "Inward", new { @class = "btn btn-primary" })</td></tr>
+    <tr><td width="200">@Html.ActionLink("IPR Cell", "IPRCellgrid", "Inward", new { @class = "btn btn-primary" })</td></tr>
+    <tr><td width="200">@Html.ActionLink("ICSR Facility", "ICSRFacilitygrid", "Inward", new { @class = "btn btn-primary" })</td></tr>
+    <tr><td width="200">@Html.ActionLink("Office", "Officegrid", "Inward", new { @class = "btn btn-primary" })</td></tr>
+</table>
+

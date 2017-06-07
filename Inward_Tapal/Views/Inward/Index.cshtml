@@ -1,0 +1,292 @@
+﻿@model Inward_Tapal.Models.sample_User
+
+@{
+    ViewBag.Title = "Edit";
+    var primaryKey = TempData["lastPrimaryKey"] != null && !string.IsNullOrEmpty(TempData["lastPrimaryKey"].ToString()) ? TempData["lastPrimaryKey"].ToString() : string.Empty;
+    var department = ViewData["Department"] != null && !string.IsNullOrEmpty(ViewData["Department"].ToString()) ? ViewData["Department"].ToString() : string.Empty;
+    //var department = ViewData["Department"].ToString();
+}
+    
+<h2>Edit</h2>
+
+@using (Html.BeginForm("Create", "Inward", FormMethod.Post, new { id = "formid" }))
+{
+    @Html.HiddenFor(m=>m.Id)
+   <table>
+     <tr>
+         <td>Slno:</td>
+         <td>@Html.TextBox("T_sno", (string)ViewBag.count1, new { @readonly = "true", @width = "150px" })</td>
+     </tr>
+     <tr>
+         <td>From:</td>
+         <td>@Html.TextBoxFor(m => m.T_From)</td>
+     </tr>
+     <tr>
+         <td>Department:</td>
+         <td>
+             <div id="ddl1">
+                 <select id="drop1" name="drop1" onchange="dropdownchanged()">
+                     <option value="">Select</option>
+                     <option value="D">Departments</option>
+                     <option value="C">Central Facilities</option>
+                     <option value="A">Administration</option>
+                     <option value="G">Guest House</option>
+                 </select>
+             </div>
+         </td>
+         <td>
+             <div id="dropDownDepartment">
+                 @Html.DropDownList("department", "select")
+             </div>
+         </td>
+     </tr>
+     <tr>
+         <td>subject:</td>
+         <td >@Html.TextAreaFor(m => m.T_Subject, new { @style = "width:100%" })</td>
+     </tr>
+     <tr>
+         <td>Section:</td>
+         <td>
+             @Html.DropDownList("sectionDropdownId", new List<SelectListItem>
+    {
+        new SelectListItem {Text="Dean's Office",Value="1",Selected=(Model.T_Section =="Dean's Office" ?true :false) },
+        new SelectListItem {Text="Office",Value="2",Selected=(Model.T_Section =="Office" ?true :false)},
+        new SelectListItem {Text="Accounts",Value="3",Selected=(Model.T_Section =="Accounts" ?true :false)},
+        new SelectListItem {Text="Recruitment",Value="4",Selected=(Model.T_Section =="Recruitment" ?true :false)},
+        new SelectListItem {Text="Purchase",Value="5",Selected=(Model.T_Section =="Purchase" ?true :false)},
+        new SelectListItem {Text="ICSR Facilities",Value="6",Selected=(Model.T_Section =="ICSR Facilities" ?true :false)},
+        new SelectListItem {Text="IPR Cell",Value="7",Selected=(Model.T_Section =="IPR Cell" ?true :false)}
+    }, "Select Section", new { id = "sectionDropdownId", onchange = "sectionDropdownChanged()" })
+
+
+         </td>
+     </tr>
+     <tr>
+         <td>TPLNO:</td>
+         <td>@Html.TextBoxFor(m => m.TPLNO, new { @readonly = "true" ,@width="150px"})</td>
+     </tr>
+     <tr>
+         <td>Cheque:</td>
+         <td>
+
+             @if (Model.T_Cheque == "Y")
+             {
+                 <input type="checkbox"  checked="checked" />
+             }
+             else
+             {
+                 <input type="checkbox" />
+             }
+         </td>
+     </tr>
+     <tr>
+         <td>User:</td>
+         <td>@Html.DisplayName(Session["UserName"].ToString()) </td>
+     </tr>
+     <tr>
+         <td>WFCPNO:</td>
+         <td>@Html.TextBoxFor(m => m.wfcpno)</td>
+     </tr>
+     <tr><td><button type="submit" onclick="aler()">Save</button></td></tr>
+
+    </table>
+string test = Session["UserName"].ToString();
+TempData["counting"] = ViewBag.count;
+    @*@Html.HiddenFor(m => m.TPLNO)
+
+
+
+
+
+
+    @*<div class="row">
+        <div class="form-group  col-sm-12 col-md-4 col-lg-4">
+            @Html.Label("Slno:")
+            <div class="">
+                @Html.TextBox("T_sno", (string)ViewBag.count1, new { @readonly = "readonly", @width = "150px" , @class = "form-control" })
+            </div>
+
+        </div>
+        <div class="form-group  col-sm-12 col-md-4 col-lg-4">
+            @Html.Label("From:")
+            <div class="">
+                @Html.TextBoxFor(m => m.T_From,new { @class = "form-control" })
+            </div>
+
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="form-group  col-sm-12 col-md-4 col-lg-4">
+            @Html.Label("Department:")
+            <div class="">
+                <div id="ddl1">
+                    <select id="drop1" name="drop1" onchange="dropdownchanged()" class="form-control">
+                        <option value="">Select</option>
+                        <option value="D">Departments</option>
+                        <option value="C">Central Facilities</option>
+                        <option value="A">Administration</option>
+                        <option value="G">Guest House</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="dropDownDepartment">
+                @Html.DropDownList("department", "select")
+               @* @Html.DropDownList("department", (List<SelectListItem>)ViewBag.department, new { @class="form-control",@name="department",@id= "department" })*@
+                
+            @*</div>
+
+        </div>
+        <div class="form-group  col-sm-12 col-md-4 col-lg-4">
+            @Html.Label("subject:")
+            <div class=""  >
+                @Html.TextAreaFor(m => m.T_Subject, new {  rows="5",@class="form-control" })
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="form-group  col-sm-12 col-md-4 col-lg-4">
+            @Html.Label("Section:")
+            <div class="">
+                @Html.DropDownList("sectionDropdownId", new List<SelectListItem>
+    {
+        new SelectListItem {Text="Dean's Office",Value="1",Selected=(Model.T_Section =="Dean's Office" ?true :false) },
+        new SelectListItem {Text="Office",Value="2",Selected=(Model.T_Section =="Office" ?true :false)},
+        new SelectListItem {Text="Accounts",Value="3",Selected=(Model.T_Section =="Accounts" ?true :false)},
+        new SelectListItem {Text="Recruitment",Value="4",Selected=(Model.T_Section =="Recruitment" ?true :false)},
+        new SelectListItem {Text="Purchase",Value="5",Selected=(Model.T_Section =="Purchase" ?true :false)},
+        new SelectListItem {Text="ICSR Facilities",Value="6",Selected=(Model.T_Section =="ICSR Facilities" ?true :false)},
+        new SelectListItem {Text="IPR Cell",Value="7",Selected=(Model.T_Section =="IPR Cell" ?true :false)}
+    }, "Select Section", new { id = "sectionDropdownId", onchange = "sectionDropdownChanged()", @class = "form-control" })
+
+
+
+            </div>
+
+        </div>
+
+        <div class="form-group  col-sm-12 col-md-4 col-lg-4">
+            @Html.Label("TPLNO:")
+            <div class="">
+                @Html.TextBoxFor(m => m.TPLNO, new { @readonly = "readonly",@class = "form-control" })
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+
+
+        <div class="form-group  col-sm-12 col-md-4 col-lg-4">
+            @Html.Label("Cheque:")
+            <div class="input-group">
+
+                @if (Model.T_Cheque == "Y")
+                {
+                <input type="checkbox" checked="checked" />
+                }
+                else
+                {
+                <input type="checkbox" />
+                }
+            </div>
+
+        </div>
+
+        <div class="form-group  col-sm-12 col-md-4 col-lg-4">
+            @Html.Label("User:")
+            <div class="input-group">
+                @Html.DisplayName(Session["UserName"].ToString())
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="form-group  col-sm-12 col-md-4 col-lg-4">
+            @Html.Label("WFCPNO:")
+
+            <div class="">
+                @Html.TextBoxFor(m => m.wfcpno,new { @class="form-control"})
+            </div>
+
+        </div>
+    </div>
+        <div class="form-group  col-sm-12 col-md-4 col-lg-4">
+            <button type="submit" onclick="aler()">Save</button>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div id="div1" style="display:none">
+            <p>Welcome to Besent</p>
+        </div>*@
+        <div>
+            @*@Html.Partial("_ShowDetails")*@
+        </div>
+        @Html.Hidden("hdndepartmentDropDown")
+        @Html.Hidden("hdnsectionDropdownId")
+        }
+        <script type="text/javascript">
+            $(function () {
+                $("#drop1").val(@department);
+            })
+            var count = 1;
+            function LoadPartialView(a) {
+                $("#div1").show();
+
+                $.ajax({
+                    url: "/New_Entry/_partial/?id=" + count,
+                    success: function (result) {
+                        if (a == "chk") {
+                            $("#div1").html(result)
+                        }
+                        else {
+                            $("#div1").append(result);
+                            var nc = count - 2;
+                            $("#add" + nc).hide();
+                        }
+                    }, type: "GET"
+                }); count++;
+            }
+            // });
+            function dropdownchanged() {
+                if ($("#drop1").val() != "") {
+                    $.ajax({
+                        type: "GET",
+                        url: "/New_Entry/GetDropDownValue",
+                        data: { department: $("#drop1").val() },
+                        success: function (data) {
+                            var s = $('<select id="departmentDropDown" onchange="deptDropdownchanged()"/>');
+                            for (var val in data) {
+                                $('<option />', { value: data[val].value, text: data[val].Text }).appendTo(s);
+                            }
+                            $('#dropDownDepartment').html("").html(s);
+                            $("#hdndepartmentDropDown").val($('#departmentDropDown :selected').text());
+                        }
+                    });
+                }
+                else {
+                    $('#dropDownDepartment').empty();
+                }
+            }
+
+            function deptDropdownchanged() {
+                $("#hdndepartmentDropDown").val($('#departmentDropDown :selected').text());
+            }
+            function sectionDropdownChanged() {
+                $("#hdnsectionDropdownId").val($('#sectionDropdownId :selected').text());
+            }
+
+        </script>

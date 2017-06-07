@@ -1,0 +1,493 @@
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\roslyn\csc.exe
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\roslyn\vbc.exe
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\roslyn\VBCSCompiler.exe
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Inward_Tapal.dll.config
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Inward_Tapal.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Inward_Tapal.pdb
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Antlr3.Runtime.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\EntityFramework.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\EntityFramework.SqlServer.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Newtonsoft.Json.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Owin.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\System.Web.Helpers.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\System.Web.Mvc.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\System.Web.Optimization.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\System.Web.Razor.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\System.Web.WebPages.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\System.Web.WebPages.Razor.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\WebGrease.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\System.Web.Helpers.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\System.Web.Mvc.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\System.Web.Optimization.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\System.Web.Razor.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\System.Web.WebPages.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\System.Web.WebPages.Razor.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Antlr3.Runtime.pdb
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Newtonsoft.Json.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\EntityFramework.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\EntityFramework.SqlServer.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\obj\Debug\Inward_Tapal.csprojResolveAssemblyReference.cache
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\obj\Debug\Inward_Tapal.dll
+C:\Users\IC&SR\Documents\Visual Studio 2015\Projects\Inward_Tapal\Inward_Tapal\obj\Debug\Inward_Tapal.pdb
+D:\Inward_Tapal\Inward_Tapal\bin\roslyn\csc.exe
+D:\Inward_Tapal\Inward_Tapal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Inward_Tapal\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Inward_Tapal\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Inward_Tapal\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Inward_Tapal\Inward_Tapal\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Inward_Tapal\Inward_Tapal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Inward_Tapal\Inward_Tapal\bin\roslyn\System.Collections.Immutable.dll
+D:\Inward_Tapal\Inward_Tapal\bin\roslyn\System.Reflection.Metadata.dll
+D:\Inward_Tapal\Inward_Tapal\bin\roslyn\vbc.exe
+D:\Inward_Tapal\Inward_Tapal\bin\roslyn\VBCSCompiler.exe
+D:\Inward_Tapal\Inward_Tapal\bin\roslyn\VBCSCompiler.exe.config
+D:\Inward_Tapal\Inward_Tapal\bin\Inward_Tapal.dll.config
+D:\Inward_Tapal\Inward_Tapal\bin\Inward_Tapal.dll
+D:\Inward_Tapal\Inward_Tapal\bin\Inward_Tapal.pdb
+D:\Inward_Tapal\Inward_Tapal\bin\Antlr3.Runtime.dll
+D:\Inward_Tapal\Inward_Tapal\bin\EntityFramework.dll
+D:\Inward_Tapal\Inward_Tapal\bin\EntityFramework.SqlServer.dll
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.dll
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.dll
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Google.dll
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Web.Infrastructure.dll
+D:\Inward_Tapal\Inward_Tapal\bin\Newtonsoft.Json.dll
+D:\Inward_Tapal\Inward_Tapal\bin\Owin.dll
+D:\Inward_Tapal\Inward_Tapal\bin\System.Web.Helpers.dll
+D:\Inward_Tapal\Inward_Tapal\bin\System.Web.Mvc.dll
+D:\Inward_Tapal\Inward_Tapal\bin\System.Web.Optimization.dll
+D:\Inward_Tapal\Inward_Tapal\bin\System.Web.Razor.dll
+D:\Inward_Tapal\Inward_Tapal\bin\System.Web.WebPages.Deployment.dll
+D:\Inward_Tapal\Inward_Tapal\bin\System.Web.WebPages.dll
+D:\Inward_Tapal\Inward_Tapal\bin\System.Web.WebPages.Razor.dll
+D:\Inward_Tapal\Inward_Tapal\bin\WebGrease.dll
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Inward_Tapal\Inward_Tapal\bin\System.Web.Helpers.xml
+D:\Inward_Tapal\Inward_Tapal\bin\System.Web.Mvc.xml
+D:\Inward_Tapal\Inward_Tapal\bin\System.Web.Optimization.xml
+D:\Inward_Tapal\Inward_Tapal\bin\System.Web.Razor.xml
+D:\Inward_Tapal\Inward_Tapal\bin\System.Web.WebPages.xml
+D:\Inward_Tapal\Inward_Tapal\bin\System.Web.WebPages.Deployment.xml
+D:\Inward_Tapal\Inward_Tapal\bin\System.Web.WebPages.Razor.xml
+D:\Inward_Tapal\Inward_Tapal\bin\Antlr3.Runtime.pdb
+D:\Inward_Tapal\Inward_Tapal\bin\Newtonsoft.Json.xml
+D:\Inward_Tapal\Inward_Tapal\bin\EntityFramework.xml
+D:\Inward_Tapal\Inward_Tapal\bin\EntityFramework.SqlServer.xml
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.xml
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.xml
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Google.xml
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Inward_Tapal\Inward_Tapal\obj\Debug\Inward_Tapal.csprojResolveAssemblyReference.cache
+D:\Inward_Tapal\Inward_Tapal\obj\Debug\Inward_Tapal.dll
+D:\Inward_Tapal\Inward_Tapal\obj\Debug\Inward_Tapal.pdb
+E:\Inward_Tapal\Inward_Tapal\bin\roslyn\csc.exe
+E:\Inward_Tapal\Inward_Tapal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Inward_Tapal\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Inward_Tapal\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Inward_Tapal\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Inward_Tapal\Inward_Tapal\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Inward_Tapal\Inward_Tapal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Inward_Tapal\Inward_Tapal\bin\roslyn\System.Collections.Immutable.dll
+E:\Inward_Tapal\Inward_Tapal\bin\roslyn\System.Reflection.Metadata.dll
+E:\Inward_Tapal\Inward_Tapal\bin\roslyn\vbc.exe
+E:\Inward_Tapal\Inward_Tapal\bin\roslyn\VBCSCompiler.exe
+E:\Inward_Tapal\Inward_Tapal\bin\roslyn\VBCSCompiler.exe.config
+E:\Inward_Tapal\Inward_Tapal\bin\Inward_Tapal.dll.config
+E:\Inward_Tapal\Inward_Tapal\bin\Inward_Tapal.dll
+E:\Inward_Tapal\Inward_Tapal\bin\Inward_Tapal.pdb
+E:\Inward_Tapal\Inward_Tapal\bin\Antlr3.Runtime.dll
+E:\Inward_Tapal\Inward_Tapal\bin\EntityFramework.dll
+E:\Inward_Tapal\Inward_Tapal\bin\EntityFramework.SqlServer.dll
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.dll
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.dll
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Google.dll
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Web.Infrastructure.dll
+E:\Inward_Tapal\Inward_Tapal\bin\Newtonsoft.Json.dll
+E:\Inward_Tapal\Inward_Tapal\bin\Owin.dll
+E:\Inward_Tapal\Inward_Tapal\bin\System.Web.Helpers.dll
+E:\Inward_Tapal\Inward_Tapal\bin\System.Web.Mvc.dll
+E:\Inward_Tapal\Inward_Tapal\bin\System.Web.Optimization.dll
+E:\Inward_Tapal\Inward_Tapal\bin\System.Web.Razor.dll
+E:\Inward_Tapal\Inward_Tapal\bin\System.Web.WebPages.Deployment.dll
+E:\Inward_Tapal\Inward_Tapal\bin\System.Web.WebPages.dll
+E:\Inward_Tapal\Inward_Tapal\bin\System.Web.WebPages.Razor.dll
+E:\Inward_Tapal\Inward_Tapal\bin\WebGrease.dll
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Inward_Tapal\Inward_Tapal\bin\System.Web.Helpers.xml
+E:\Inward_Tapal\Inward_Tapal\bin\System.Web.Mvc.xml
+E:\Inward_Tapal\Inward_Tapal\bin\System.Web.Optimization.xml
+E:\Inward_Tapal\Inward_Tapal\bin\System.Web.Razor.xml
+E:\Inward_Tapal\Inward_Tapal\bin\System.Web.WebPages.xml
+E:\Inward_Tapal\Inward_Tapal\bin\System.Web.WebPages.Deployment.xml
+E:\Inward_Tapal\Inward_Tapal\bin\System.Web.WebPages.Razor.xml
+E:\Inward_Tapal\Inward_Tapal\bin\Antlr3.Runtime.pdb
+E:\Inward_Tapal\Inward_Tapal\bin\Newtonsoft.Json.xml
+E:\Inward_Tapal\Inward_Tapal\bin\EntityFramework.xml
+E:\Inward_Tapal\Inward_Tapal\bin\EntityFramework.SqlServer.xml
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.xml
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.xml
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Google.xml
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Inward_Tapal\Inward_Tapal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Inward_Tapal\Inward_Tapal\obj\Debug\Inward_Tapal.dll
+E:\Inward_Tapal\Inward_Tapal\obj\Debug\Inward_Tapal.pdb
+E:\Inward_Tapal\Inward_Tapal\obj\Debug\Inward_Tapal.csprojResolveAssemblyReference.cache
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\roslyn\csc.exe
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\roslyn\System.Collections.Immutable.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\roslyn\System.Reflection.Metadata.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\roslyn\vbc.exe
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\roslyn\VBCSCompiler.exe
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\roslyn\VBCSCompiler.exe.config
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Inward_Tapal.dll.config
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Inward_Tapal.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Inward_Tapal.pdb
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Antlr3.Runtime.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\EntityFramework.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\EntityFramework.SqlServer.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Owin.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Owin.Security.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Owin.Security.Google.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Web.Infrastructure.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Newtonsoft.Json.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Owin.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\System.Web.Helpers.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\System.Web.Mvc.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\System.Web.Optimization.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\System.Web.Razor.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\System.Web.WebPages.Deployment.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\System.Web.WebPages.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\System.Web.WebPages.Razor.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\WebGrease.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\System.Web.Helpers.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\System.Web.Mvc.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\System.Web.Optimization.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\System.Web.Razor.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\System.Web.WebPages.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\System.Web.WebPages.Deployment.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\System.Web.WebPages.Razor.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Antlr3.Runtime.pdb
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Newtonsoft.Json.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\EntityFramework.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\EntityFramework.SqlServer.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Owin.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Owin.Security.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Owin.Security.Google.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Inward_Tapal_LATEST\Inward_Tapal\obj\Debug\Inward_Tapal.dll
+E:\Inward_Tapal_LATEST\Inward_Tapal\obj\Debug\Inward_Tapal.pdb
+E:\Inward_Tapal_LATEST\Inward_Tapal\obj\Debug\Inward_Tapal.csprojResolveAssemblyReference.cache
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\obj\Debug\Inward_Tapal.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\obj\Debug\Inward_Tapal.pdb
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\csc.exe
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\System.Collections.Immutable.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\System.Reflection.Metadata.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\vbc.exe
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\VBCSCompiler.exe
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\VBCSCompiler.exe.config
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Inward_Tapal.dll.config
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Inward_Tapal.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Inward_Tapal.pdb
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Antlr3.Runtime.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\EntityFramework.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\EntityFramework.SqlServer.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Google.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Web.Infrastructure.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Newtonsoft.Json.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Owin.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Helpers.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Mvc.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Optimization.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Razor.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.WebPages.Deployment.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.WebPages.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.WebPages.Razor.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\WebGrease.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Helpers.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Mvc.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Optimization.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Razor.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.WebPages.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.WebPages.Deployment.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.WebPages.Razor.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Antlr3.Runtime.pdb
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Newtonsoft.Json.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\EntityFramework.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\EntityFramework.SqlServer.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Google.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\csc.exe
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\System.Collections.Immutable.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\System.Reflection.Metadata.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\vbc.exe
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\VBCSCompiler.exe
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\VBCSCompiler.exe.config
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Inward_Tapal.dll.config
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Inward_Tapal.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Inward_Tapal.pdb
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Antlr3.Runtime.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\EntityFramework.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\EntityFramework.SqlServer.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Google.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Web.Infrastructure.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Newtonsoft.Json.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Owin.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Helpers.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Mvc.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Optimization.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Razor.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.WebPages.Deployment.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.WebPages.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.WebPages.Razor.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\WebGrease.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Helpers.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Mvc.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Optimization.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Razor.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.WebPages.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.WebPages.Deployment.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.WebPages.Razor.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Antlr3.Runtime.pdb
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Newtonsoft.Json.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\EntityFramework.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\EntityFramework.SqlServer.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Google.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\obj\Debug\Inward_Tapal.dll
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\obj\Debug\Inward_Tapal.pdb
+E:\Inward_Tapal_LATEST_New\Inward_Tapal\obj\Debug\Inward_Tapal.csprojResolveAssemblyReference.cache
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\csc.exe
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\System.Collections.Immutable.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\System.Reflection.Metadata.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\vbc.exe
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\VBCSCompiler.exe
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\roslyn\VBCSCompiler.exe.config
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Inward_Tapal.dll.config
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Inward_Tapal.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Inward_Tapal.pdb
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Antlr3.Runtime.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\EntityFramework.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\EntityFramework.SqlServer.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Google.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Web.Infrastructure.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Newtonsoft.Json.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Owin.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Helpers.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Mvc.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Optimization.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Razor.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.WebPages.Deployment.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.WebPages.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.WebPages.Razor.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\WebGrease.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Helpers.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Mvc.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Optimization.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.Razor.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.WebPages.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.WebPages.Deployment.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\System.Web.WebPages.Razor.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Antlr3.Runtime.pdb
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Newtonsoft.Json.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\EntityFramework.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\EntityFramework.SqlServer.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Google.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\obj\Debug\Inward_Tapal.csprojResolveAssemblyReference.cache
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\obj\Debug\Inward_Tapal.dll
+E:\Inward\Inward_Tapal_LATEST_New\Inward_Tapal\obj\Debug\Inward_Tapal.pdb
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\ClosedXML.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\DocumentFormat.OpenXml.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\ClosedXML.pdb
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\ClosedXML.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\PagedList.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\PagedList.Mvc.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\PagedList.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\PagedList.Mvc.xml
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\bin\Microsoft.ScriptManager.jQuery.UI.Combined.dll
+D:\Inward_Tapal_LATEST_New\Inward_Tapal\obj\Debug\Inward_Tapal.csprojResolveAssemblyReference.cache

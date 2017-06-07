@@ -1,0 +1,133 @@
+﻿@model IEnumerable<Inward_Tapal.Models.Inward>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Search</h2>
+<div style="font-family:Arial"></div>
+<p>
+    
+</p>
+<p>
+    @using (Html.BeginForm("Index", "Search", FormMethod.Get))
+    {
+        <b>Search By:</b>@Html.RadioButton("searchBy", "T_Dept")<text>Department:</text>
+        @Html.RadioButton("searchBy", "T_Section")<text>Section:</text>
+        @Html.RadioButton("searchBy", "Tplno")<text>Tapal No:</text>
+        <input type="radio" name="Check1" onchange="LoadPartialView()" id="Check1" />
+       <text>Date</text>  
+        @*@Html.RadioButton("searchBy","Date_in")*@
+        @*<text>Date</text>*@
+    <div id="div2">
+        @Html.TextBox("search")<input type="Submit" value="search" /></div>
+    <div id="div1" style="display:none">
+        From Date:
+        @Html.TextBox("searching")
+        To Date:
+        @Html.TextBox("searching1")
+        <input type="Submit" value="searching" />
+    </div>
+    <div id="checkList" style="display:none">
+    </div>
+
+    }
+</p>
+<table border="1">
+    <tr>
+        <th>
+          Date
+        </th>
+        <th>
+            Serial No
+        </th>
+        <th>
+           From
+        </th>
+        <th>
+            Department
+        </th>
+        <th>
+            Subject
+        </th>
+        <th>
+            Section
+        </th>
+        <th>
+            Passout
+        </th>
+        <th>
+           Cheque
+        </th>
+        <th>
+            User
+        </th>
+        <th>
+            Wfcpno
+        </th>
+        <th>
+            TapalNo 
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date_in)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.T_Sno)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.T_From)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.T_Dept)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.T_Subject)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.T_Section)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.T_Passout)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.T_Cheque)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.T_User)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.wfcpno)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TPLNO)
+        </td>
+        <td>
+            @*@Html.ActionLink("Edit", "Edit", new { id=item.TPLNO }) |*@
+            @Html.ActionLink("Details", "Details", new { id=item.TPLNO }) |
+            @*@Html.ActionLink("Delete", "Delete", new { id=item.TPLNO })*@
+        </td>
+    </tr>
+}
+
+</table>
+<script type="text/javascript">
+    function LoadPartialView(a) {
+
+        $("#div2").hide();
+        $("#div1").show();
+
+    }
+    
+    $(document).ready(function() 
+    {
+        $("#searching").datepicker({ dateFormat:'dd-mm-yy'});
+       $("#searching1").datepicker({ dateFormat: 'dd/mm/yy' });
+       
+  });
+ 
+</script>

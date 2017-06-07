@@ -1,0 +1,302 @@
+﻿@model Inward_Tapal.Models.sample_User
+@{
+    ViewBag.Title = "Create";
+}
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery-ui-1.8.23.js"></script>
+<h2>Create Inward Detail</h2>
+
+<table>
+    <tr>
+        @*<td width="200">@Html.ActionLink("Accounts", "accountgrid", "Inward",new { @class = "btn btn-primary" })<span class="badge">@ViewBag.count1</span></td>*@
+        <td width="200"><a href="@Url.Action("accountgrid", "Inward",new { })" class="btn btn-primary">Accounts &nbsp;<span class="badge">@ViewBag.count1</span></a></td>
+
+        <td width="200"><a href="@Url.Action("Purchasegrid" , "Inward" , new {})" class="btn btn-primary">Purchase &nbsp;<span class="badge">@ViewBag.count2</span></a></td>
+        <td width="200"<a href="@Url.Action("Recruitmentgrid", "Inward", new {})" class="btn btn-primary">Recruitment &nbsp;<span class="badge">@ViewBag.count3</span></a></td>
+        <td width="200"><a href="@Url.Action("Deanofficegrid", "Inward", new {})" class="btn btn-primary">Dean Office &nbsp;<span class="badge">@ViewBag.count4</span></a></td>
+        <td width="200"><a href="@Url.Action("IPRCellgrid","Inward", new {})" class="btn btn-primary">IPM Cell &nbsp;<span class="badge">@ViewBag.count5</span></a></td>
+        <td width="200"><a href="@Url.Action("ICSRFacilitygrid", "Inward", new {})" class="btn btn-primary">ICSR Facility&nbsp;<span class="badge">@ViewBag.count6</span></a></td>
+        <td width="200"><a href="@Url.Action("Officegrid", "Inward", new {})" class="btn btn-primary">Office &nbsp;<span class="badge"> @ViewBag.count7</span></a></td>
+    </tr>
+</table>
+
+
+    @*<div class="row">
+        <div class="form-group  col-sm-12 col-md-6 col-lg-6">
+            @Html.Label("SL No:")
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.T_Sno, new { @readonly = "true", @width = "150px" })
+            </div>
+
+        </div>
+        <div class="form-group  col-sm-12 col-md-6 col-lg-6">
+            @Html.Label("NAME:")
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.T_From, new { placeholder = "Please enter from" })
+                @Html.ValidationMessageFor(m => m.T_From)
+            </div>
+
+        </div>
+
+        <div class="form-group  col-sm-12 col-md-6 col-lg-6">
+            @Html.Label("DEPARTMENT:")
+            <div class="input-group">
+                <div id="ddl1">
+                    <select id="drop1" name="drop1" onchange="dropdownchanged()" style="width:150px">
+                        <option value="">-- Select Department--</option>
+                        <option value="D">Departments</option>
+                        <option value="C">Central Facilities</option>
+                        <option value="A">Administration</option>
+                        <option value="G">Guest House</option>
+                    </select>
+                </div>
+                @Html.ValidationMessage("drop1")
+            </div>
+
+        </div>
+
+        <div class="form-group  col-sm-12 col-md-6 col-lg-6">
+            @Html.Label("NAME:")
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.T_From, new { placeholder = "Please enter from" })
+                @Html.ValidationMessageFor(m => m.T_From)
+            </div>
+
+        </div>
+
+        <div class="form-group  col-sm-12 col-md-6 col-lg-6">
+            @Html.Label("NAME:")
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.T_From, new { placeholder = "Please enter from" })
+                @Html.ValidationMessageFor(m => m.T_From)
+            </div>
+
+        </div>
+
+        <div class="form-group  col-sm-12 col-md-6 col-lg-6">
+            @Html.Label("NAME:")
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.T_From, new { placeholder = "Please enter from" })
+                @Html.ValidationMessageFor(m => m.T_From)
+            </div>
+
+        </div>
+
+        <div class="form-group  col-sm-12 col-md-6 col-lg-6">
+            @Html.Label("NAME:")
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.T_From, new { placeholder = "Please enter from" })
+                @Html.ValidationMessageFor(m => m.T_From)
+            </div>
+
+        </div>
+
+        <div class="form-group  col-sm-12 col-md-6 col-lg-6">
+            @Html.Label("NAME:")
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.T_From, new { placeholder = "Please enter from" })
+                @Html.ValidationMessageFor(m => m.T_From)
+            </div>
+
+        </div>
+
+        <div class="form-group  col-sm-12 col-md-6 col-lg-6">
+            @Html.Label("NAME:")
+            <div class="input-group">
+                @Html.TextBoxFor(m => m.T_From, new { placeholder = "Please enter from" })
+                @Html.ValidationMessageFor(m => m.T_From)
+            </div>
+
+        </div>
+    </div>*@
+
+
+
+
+
+ <table cellspacing="0" width="100%">
+            <tr>
+                <td>SL No:</td>
+                <td>@Html.TextBoxFor(m => m.T_Sno, new { @readonly = "true" ,@width="150px"})</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>NAME:</td>
+                <td>
+                    @Html.TextBoxFor(m => m.T_From,new { placeholder="Please enter from"})
+                @Html.ValidationMessageFor(m => m.T_From)
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Department:</td>
+            <td>
+                <div id="ddl1">
+                    <select id="drop1" name="drop1" onchange="dropdownchanged()" style="width:150px">
+                        <option value="">-- Select Department--</option>
+                        <option value="D">Departments</option>
+                        <option value="C">Central Facilities</option>
+                        <option value="A">Administration</option>
+                        <option value="G">Guest House</option>
+                    </select>
+                </div>
+               @Html.ValidationMessage("drop1")
+            </td>
+            <td>
+                @*<div id="dropDownDepartment">
+
+                    {
+                    new SelectListItem {Text="Dean's Office",Value="1"},
+                    new SelectListItem {Text="Office",Value="2"},
+                    new SelectListItem {Text="Accounts",Value="3"},
+                    new SelectListItem {Text="Recruitment",Value="4"},
+                    new SelectListItem {Text="Purchase",Value="5"},
+                    new SelectListItem {Text="ICSR Facilities",Value="6"},
+                    new SelectListItem {Text="IPR Cell",Value="7"}
+                    }, "--Select Section--", new { id = "sectionDropdownId", onchange = "sectionDropdownChanged()"})
+
+                </div>*@  
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.ValidationMessageFor(model => model.T_Section)</td>
+          </tr>                @*@Html.DropDownList("Department", "select")*@ 
+            
+      
+    <tr>
+        <td>subject:</td>
+        <td>
+            @Html.DropDownList("subject","Others")
+                @Html.TextBox("NAme")
+            @Html.DropDownListFor(m=>m.T_Subject,Model.subList,"Select Subject" )
+            @Html.EditorFor(m => m.T_Subject, new { htmlAttributes = new { @class = "form-control", @id = "Subject" } })
+
+            @Html.TextBoxFor(m => m.T_Subject_Value)
+
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Section:</td>
+        <td>
+            @Html.DropDownList("sectionDropdownId", new List<SelectListItem>())</td></tr>
+    <tr>
+        <td>Cheque:</td>
+        <td><input type="checkbox" name="Check1" onchange="LoadPartialView()" id="Check1" /></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>WFCPNO:</td>
+        <td>@Html.TextBoxFor(m => m.wfcpno, new { placeholder = "Please enter wfcpno" })</td>
+        <td></td>
+    </tr>
+    </table>
+    <div id="checkList" style="display:none">
+    </div>
+    <button type="submit">Save</button>
+    @Html.Hidden("hdndepartmentDropDown")
+    @Html.Hidden("hdnsectionDropdownId")
+    @Html.Hidden("hdnSubjectDropdownId")
+    <div id="inWardDetails">
+    </div>
+}
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        var autocomplelink = {
+            searchurl: '@Url.Action("AutocompleteSuggestions", "Inward")'
+        }
+        $('#Subject').autocomplete({
+            source:
+                function (request, response) {
+                    $.ajax({
+                        url: autocomplelink.searchurl,
+                        type: "POST",
+                        dataType: "json",
+                        data: { searchstring: request.term },
+                        success: function (data) {
+                            response($.map(data, function (item) {
+                                return { label: item, value: item };
+                            }))
+                        }
+                    })
+                },
+            messages: {
+                noResults: "", results: ""
+            }
+        });
+    })
+    $(function () {
+        var tapalNo = '@TempData["TapalNo"]';
+        if (tapalNo != '' && tapalNo != undefined && tapalNo != "" && tapalNo != null) {
+            alert("Tapal Number : " + '@TempData["TapalNo"]');
+        }
+        loadInwardDetail();
+        sectionDropdownChanged();
+    });
+    var addedCheckcount = 1;
+    var removedCount = 0;
+    function LoadPartialView() {
+        if ($("#Check1").is(":checked")) {
+            $("#checkList").show();
+            $.ajax({
+                url: "/New_Entry/_partial/?id=" + addedCheckcount,
+                success: function (result) {
+                    if (addedCheckcount == 1) {
+                        $("#checkList").html(result);
+                    }
+                    else {
+                        $("#checkList").append(result);
+                        var nc = addedCheckcount - 2;
+                        $("#add" + nc).hide();
+                    }
+                }, type: "GET"
+            }); addedCheckcount++;
+        } else {
+            addedCheckcount = 1;
+            $("#checkList").empty();
+        }
+    }
+
+    function dropdownchanged() {
+        if ($("#drop1").val() != "") {
+            $.ajax({
+                type: "GET",
+                url: "/New_Entry/GetDropDownValue",
+                data: { department: $("#drop1").val() },
+                success: function (data) {
+                    var s = $('<select id="departmentDropDown" onchange="deptDropdownchanged()"/>');
+                    for (var val in data) {
+                        $('<option />', { value: data[val].value, text: data[val].Text }).appendTo(s);
+                    }
+                    $('#dropDownDepartment').html("").html(s);
+                    $("#hdndepartmentDropDown").val($('#departmentDropDown :selected').text());
+                }
+            });
+        } else {
+            $('#dropDownDepartment').empty();
+        }
+    }
+    function deptDropdownchanged() {
+        $("#hdndepartmentDropDown").val($('#departmentDropDown :selected').text());
+    }
+    function sectionDropdownChanged() {
+        $("#hdnsectionDropdownId").val($('#sectionDropdownId :selected').text());
+    }
+
+    function subjectDropdownChanged() {
+        $("#hdnsubjectDropdownId").val($('#subject :selected').text());
+    }
+
+    function loadInwardDetail() {
+        $("#inWardDetails").load("/Inward/_ShowDetails");
+    } gcicsr
+
+
+    function removeCurrentCheckDetail(id) {
+        $("#tblChequeDetail" + id).remove();
+    }
+
+</script>

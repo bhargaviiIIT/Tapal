@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@using (Html.BeginForm("Index", "Report", FormMethod.Post, new { @id = "" }))
+{
+    
+    @*@Html.RadioButton("searchBy", "T_Dept", true)<text>Department:</text>
+        @Html.RadioButton("searchBy", "T_Section", true)<text>Section:</text>
+        @Html.RadioButton("searchBy", "Tplno", true)<text>Tapal No:</text>
+    <text>Date</text>  <input type="radio" name="Check1" onchange="LoadPartialView()" id="Check1" />
+    @Html.TextBox("search")
+    <div id="div1" style="display:none">
+        From Date:
+        @Html.TextBox("searching")
+        To Date:
+        @Html.TextBox("searching1")
+        <input type="Submit" value="searching" />
+    </div>*@
+    <b>Search By:</b>@Html.RadioButton("searchBy", "T_Dept", true)<text>Department:</text>
+    @Html.RadioButton("searchBy", "T_Section", true)<text>Section:</text>
+    @Html.RadioButton("searchBy", "Tplno", true)<text>Tapal No:</text>
+    @Html.RadioButton("searchBy","Date",true, new { @onchange="LoadPartialView()" }) <text>Date</text>
+    @*<input type="radio" name="Check1" checked="checked" onchange="LoadPartialView()" id="Check1" /> <text>Date</text>*@ 
+    <div id="div2">
+        @Html.TextBox("search")<input type="Submit" value="search" />
+    </div>
+        <div id="div1" style="display:none">
+            From Date:
+            @Html.TextBox("searching","",new { @id="searching"})
+            To Date:
+            @Html.TextBox("searching1","",new { @id = "searching1" })
+            <input type="Submit" value="searching" />
+        </div>
+        <div id="checkList" style="display:none">
+        </div>
+
+    <div><button type="submit">Export To Excel</button></div>
+
+}
+<script>
+    $(function () {
+        $("#searching").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            dateformat:'yyyy-MM-dd'
+        });
+        $("#searching1").datepicker({
+            changeMonth: true,
+            changeYear: true
+        });
+        $('#reportColumn').multiSelect({
+            selectableHeader: "<div class='custom-header'>ICSR</div>",
+            selectionHeader: "<div class='custom-header'>Selection items</div>",
+            selectableFooter: "<div class='custom-header'>Selectable footer</div>",
+            selectionFooter: "<div class='custom-header'>Selection footer</div>"
+        });
+    });
+   
+    function LoadPartialView(a) {
+        alert("Hi")
+        $("#div2").hide();
+        $("#div1").show();
+
+    }
+
+</script>

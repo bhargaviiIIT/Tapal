@@ -1,0 +1,48 @@
+﻿@model Inward_Tapal.Controllers.New_EntryController
+@{
+    var dynamicId = ViewData["id"] != null && !string.IsNullOrEmpty(ViewData["id"].ToString()) ? ViewData["id"].ToString() : string.Empty;
+}
+@if (dynamicId != string.Empty)
+{
+
+    <table id="tblChequeDetail@(dynamicId)">
+        <tr>
+            @*<td>Tapal No:</td>
+                <td>@Html.TextBox("TPLNO", " ", new { id = "txt" + dynamicId })</td>*@
+
+            <td>Cheque No:</td>
+            <td>@Html.TextBox("CQNO" + dynamicId, " ", new { id = "CQNO" + dynamicId   })</td>
+
+
+            <td>Cheque Date:</td>
+            @*<td>@Html.TextBox("CQDATE" + dynamicId, " ", new { id = "teext" + dynamicId })</td>*@
+            <td>@Html.TextBox("CQDATE" + dynamicId, " ", new { @class = "form-control date-picker" })</td>
+
+
+
+            <td>BANK:</td>
+            <td>@Html.TextBox("BANK" + dynamicId, " ", new { id = "BANK" + dynamicId })</td>
+
+
+            <td>AMOUNT:</td>
+            <td>@Html.TextBox("AMOUNT" + dynamicId, " ", new { id = "AMOUNT" + dynamicId })</td>
+            <td>
+
+            <td>
+                <button type="button" id="add@(dynamicId)" onclick="LoadPartialView()">Add</button>
+            </td>
+            <td>
+                <button type="button" id="remove@(dynamicId)" onclick="removeCurrentCheckDetail(@dynamicId)">Remove</button>
+            </td>
+        </tr>
+    </table>
+       @Html.Hidden("MyKey" + dynamicId)
+
+}
+<script type="text/javascript">
+    $(function () {
+        $('.date-picker').datepicker({ format: 'yyyy/mm/dd' });
+        $("input[name^='CQNO']").numeric();
+    })
+</script>
+

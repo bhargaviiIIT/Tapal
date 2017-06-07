@@ -1,0 +1,96 @@
+﻿@model IEnumerable<Inward_Tapal.Models.sample_User>
+
+@{
+    ViewBag.Title = "ShowDetails";
+}
+
+<h2>ShowDetails</h2>
+<div>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Date_in)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.T_Sno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.T_From)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.T_Dept)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.T_Subject)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.T_Section)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.T_Passout)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TPLNO)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.T_Cheque)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.T_User)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.wfcpno)
+            </th>
+            <th></th>
+        </tr>
+        @if (Model != null && Model.Any())
+        {
+
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Date_in)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.T_Sno)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.T_From)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.T_Dept)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.T_Subject)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.T_Section)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.T_Passout)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TPLNO)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.T_Cheque)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.T_User)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.wfcpno)
+                    </td>
+
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td style="text-align:center" colspan="11"><span>-- No Records To Display --</span></td>
+            </tr>
+        }
+    </table>
+</div>

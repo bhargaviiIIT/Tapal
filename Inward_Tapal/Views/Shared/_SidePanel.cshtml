@@ -1,0 +1,34 @@
+﻿
+    <div id="nav-sidebar" class="hidemenu">
+        <ul>
+            <li><a href="#">INWARD</a></li>
+            <li class="child">
+                <a href="#">ACCOUNT &nbsp;<span class="glyphicon glyphicon-chevron-right"></span></a>
+                @*<ul class="children" style="display:none">
+                    <li><a href="/coordinator/details">Co-ordinator Master</a></li>
+                    <li><a href="#">Payment Master</a></li>
+                </ul>*@
+            </li>
+            <li class="child">
+                <a href="#">RECRUITMENT&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></a>
+                @*<ul class="children" style="display:none">
+                    <li><a href="@Url.Action("Index","ImprestMstr",new { area=""})">New Account</a></li>
+                </ul>*@
+            </li>
+            <li class="child">
+                <a href="#">PURCHASE&nbsp;<span class="glyphicon glyphicon-chevron-right"></span></a>
+                <ul class="children" style="display:none">
+                    
+                    @*<li><a href="@Url.Action("Index","Trans",new { area=""})">Transaction</a></li>
+    <li><a href="@Url.Action("Index","Trans",new {vouchertype="8",area="" })">Imprest Sanction</a></li>
+    <li><a href="@Url.Action("Index","Trans",new {vouchertype="1",area="" })">Recoupement</a></li>
+    <li><a href="@Url.Action("Index","Trans",new {vouchertype="2",area="" })">ChequePayment</a></li>
+    @*<li><a href="@Url.Action("Index","Trans",new {vouchertype="2" })">Payment</a></li>*@
+                    
+                </ul>
+            </li>
+            <li><a href="#">REPORT</a></li>
+        </ul>
+
+    </div>
+

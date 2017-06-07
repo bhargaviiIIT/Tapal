@@ -1,0 +1,80 @@
+﻿@model List<Inward_Tapal.Models.sample_User>
+
+<h2>Dean's Office Pending</h2>
+@using (Html.BeginForm("", "", FormMethod.Get, new { id = "form2" }))
+{
+
+    <table border="1" cellpadding="1" cellspacing="1">
+        <tr>
+            <th>
+                Date:
+            </th>
+            <th>SlNo:</th>
+            <th>From:</th>
+            <th>Department:</th>
+            <th>Subject:</th>
+            <th>Section:</th>
+            <th>TPLNO:</th>
+            <th>Cheque:</th>
+            <th>User:</th>
+            <th>WFCPNO:</th>
+            <th>Issued:</th>
+        </tr>
+        @if (Model != null && Model.Any())
+        {
+
+            foreach (Inward_Tapal.Models.sample_User a in Model)
+            {
+            <tr>
+                <td>@a.Date_in</td>
+                <td>@a.T_Sno</td>
+                <td>@a.T_From</td>
+                <td>@a.T_Dept</td>
+                <td>@a.T_Subject</td>
+                <td>@a.T_Section</td>
+                <td>@a.TPLNO</td>
+                <td>@a.T_Cheque</td>
+                <td>@a.T_User</td>
+                <td>@a.wfcpno</td>
+                <td><input type="checkbox" name="Check@(a.Id)" id="Check@(a.Id)" /></td>
+            </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="11" style="text-align:center"> --No Records to Display-- </td>
+            </tr>
+        }
+    </table>
+    <div style="margin-top:10px">
+        @Html.TextBox("Name", null, new { @placeholder = "Enter Name" })
+        <button type="button" onclick="UpdateInwardDetail()">
+            Confirm
+        </button>
+    </div>
+   
+
+}
+
+<script type="text/javascript">
+    function UpdateInwardDetail() {
+       var issuedCheck = [];
+        $("input:checkbox").each(function () {
+            var $this = $(this);
+            if ($this.is(":checked")) {
+                issuedCheck.push($this.attr("id").replace("Check", ""));
+            }
+        });
+        $.ajax({
+            url: "/Inward/UpdateInwardDetail/?name=" + $("#Name").val() + '&chequeIssuedList=' + issuedCheck,
+            success: function (result) {
+
+            },
+            error: function (result) {
+
+            }
+        });
+    }
+</script>
+

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TapalsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="TapalsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Registrations" EntityType="TapalsModel.Registration" />
+    <EntitySet Name="Departments" EntityType="TapalsModel.Department" />
+    <EntitySet Name="Cheques" EntityType="TapalsModel.Cheque" />
+    <EntitySet Name="Subjects" EntityType="TapalsModel.Subject" />
+    <EntitySet Name="Inwards" EntityType="TapalsModel.Inward" />
+  </EntityContainer>
+  <EntityType Name="Registration">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Emp_ID" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="Username" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Section" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Designation" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Dept" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Dept_Code" Type="String" MaxLength="3" FixedLength="false" Unicode="true" />
+    <Property Name="DeptOrCentre" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Cheque">
+    <Key>
+      <PropertyRef Name="ChequeNo" />
+    </Key>
+    <Property Name="ChequeNo" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CQNO" Type="Int32" />
+    <Property Name="TPLNO" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="CQDATE" Type="DateTime" Precision="0" />
+    <Property Name="BANK" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AMOUNT" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Subject">
+    <Key>
+      <PropertyRef Name="Subject_Id" />
+    </Key>
+    <Property Name="Subject_Id" Type="Int64" Nullable="false" />
+    <Property Name="Subject_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Inward">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TPLNO" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="T_Sno" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="T_From" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="T_Dept" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="T_Subject" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="T_Subject_Value" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="T_Section" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="T_User" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="T_Passout" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="T_Cheque" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="true" />
+    <Property Name="Date_in" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="wfcpno" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Issue" Type="Boolean" Nullable="false" />
+    <Property Name="IssueName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>
